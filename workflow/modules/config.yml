@@ -1,0 +1,10 @@
+# API_KEY: 80a3c30e380c4b5584f82040232704
+# API_KEY: 0701c7db94344802bec72701232004
+# API_KEY: 5a3c021c345b47358df81558230605
+# API_KEY: 5daecfbe98414ba0aee90309230605
+API_KEY: dd70b78d8bc34a3eaa8100333230605
+locations_path: /home/godd/airflow/dags/workflow/modules/collect_data/locations.json
+locations_extract_path: /home/godd/airflow/dags/workflow/modules/collect_data/locations_extract.json
+checkpoint_path: /home/godd/airflow/dags/workflow/modules/collect_data/checkpoint.json
+url: http://api.worldweatheronline.com/premium/v1/weather.ashx?
+connection_string: mongodb+srv://grab:admin4321@cluster0.nqxzihj.mongodb.net/?retryWrites=true&w=majority
