@@ -32,7 +32,7 @@ This repo contains 2 folders:
 │   └── transform.py
 ├── LICENSE
 ├── readme.md
-└── workflow
+└── collect_cur_and_predict
     ├── collect_data_dag.py
     ├── predict_data_dag.py
     ├── __init__.py
@@ -56,6 +56,20 @@ This repo contains 2 folders:
 
 ```
 
+### Workflow
+
+**Collect historical data**
+
+![p1](review/collect_hist.png)
+
+**Collect current data**
+
+![p2](review/ETL_1.png)
+
+**Predict future**
+
+![p3](review/ETL_2.png)
+
 ### Running
 
 - collect_historical_data: 
@@ -67,7 +81,7 @@ python extract.py # run this first to collect raw data
 python main.py # run this second to transform and load data to database
 ```
 
-- workflow:
+- collect_cur_and_predict:
 
 To run Airflow dags, you should have knowledge in Apache Airflow and ETL pipeline concept. Read this official document for more information about Airflow: https://airflow.apache.org/docs/
 
